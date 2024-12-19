@@ -1,0 +1,16 @@
+local b = game.Players.LocalPlayer.Character.HumanoidRootPart
+local a = workspace.Lantern.Base.CFrame
+local c = workspace.soulFusionChest.circleInner.CFrame
+local d = workspace.chaosLegendsChest.circleInner.CFrame
+local e = workspace.skystormMastersChest.circleInner.CFrame
+local f = workspace.ultraNinjitsuChest.circleInner.CFrame
+
+b.CFrame = c
+wait(0.3)
+b.CFrame = d
+wait(0.3)
+b.CFrame = e
+wait(0.3)
+b.CFrame = f
+wait(0.3)
+b.CFrame = a
